@@ -6,6 +6,7 @@ import Helloword from "./Component/Helloword";
 import About from "./Component/About";
 import ListProjets from "./Component/ListProjets";
 import CarteVisite from "./Component/CarteVisite";
+import Timeline from "./Component/Timeline";
 
 
 const Root = () => (
@@ -14,6 +15,7 @@ const Root = () => (
             <Route exact path="/" component={Helloword}/>
             <Route exact path="/About" component={About}/>
             <Route exact path="/Projets" component={ListProjets}/>
+            <Route exact path="/Parcours" component={Timeline}/>
             <Route exact path="/Contact" component={CarteVisite}/>
 
         </Switch>
