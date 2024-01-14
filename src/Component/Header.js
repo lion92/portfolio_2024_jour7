@@ -9,11 +9,13 @@ const Header = () => {
             <header>
                 <nav>
                     <div className="logo">
-                        <h5>Kriss CLOTILDE</h5>
+                        <NavLink to={"/"}>
+                            <h5>Kriss CLOTILDE</h5>
+                        </NavLink>
                     </div>
                     <ul className="menu">
                         <li><NavLink to={"/About"}>
-                            <li>about</li>
+                            <li>About</li>
                         </NavLink></li>
                         <li><NavLink to={"/Projets"}>
                             <li>Projets</li>
@@ -22,11 +24,7 @@ const Header = () => {
                             <li>Contact</li>
                         </NavLink></li>
                     </ul>
-                    <div className="bar">
-                        <div className="bar-1"></div>
-                        <div className="bar-2"></div>
-                        <div className="bar-3"></div>
-                    </div>
+
                 </nav>
             </header>
         </>

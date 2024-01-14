@@ -7,17 +7,15 @@ const About = () => {
     return (
         <div>
             <Header></Header>
-            <Helloword></Helloword>
             <div className="section" data-anchor="skills">
                 <h1 className="wow fadeInDown" data-wow-delay="0.2s">ABOUT
-                ME</h1>
+                    ME</h1>
                 <div className="content">
 
-                    <p className="wow fadeInDown" data-wow-delay="0.2s">
-                        Je suis kriss CLOTILDE, développeur en reconversion.
-                        Je suis disponible pour une mission en java ou javascript.
-                        J'aime le craft et les bonnes pratiques de programmations.
-
+                    <p style={{fontSize: "30px", color: "blueviolet", textTransform : 'initial'}}>
+                        Je suis kriss CLOTILDE, développeur en reconversion. <br/>
+                        Je suis disponible pour une mission en java ou javascript. <br/>
+                        J'aime le craft et les bonnes pratiques de programmations. <br/>
                         Je vise les étoiles pour au moins décrocher la lune.</p>
 
                     <div className=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
@@ -44,6 +42,12 @@ const About = () => {
 
                         <div className="skillbar clearfix " data-percent="45%">
                             <div className="skillbar-title"><span>Angular</span></div>
+                            <div className="skillbar-bar"></div>
+                            <div className="skill-bar-percent">60%</div>
+                        </div>
+
+                        <div className="skillbar clearfix " data-percent="50%">
+                            <div className="skillbar-title"><span>Spring</span></div>
                             <div className="skillbar-bar"></div>
                             <div className="skill-bar-percent">60%</div>
                         </div>

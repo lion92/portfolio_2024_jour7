@@ -1,16 +1,15 @@
 
 
 .blanc {
-    padding: 50px;
+    padding: 10px;
     color: #495057;
-    width: 25%;
-    height: 300px;
+    width: 50%;
+    height: 100%;
     background-color: #fff;
     opacity: 0.95;
-    margin: 10% auto;
-    border: 1px solid #ced4da;
+    margin: 15% auto;
+    border: 1px solid #722dd2;
     border-radius: 0.4rem;
-    color: dark-grey;
     text-align: center;
 }
 

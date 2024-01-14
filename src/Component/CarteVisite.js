@@ -14,7 +14,7 @@ const CarteVisite = () => {
                 <ul>
                     <li><a href="https://www.linkedin.com/in/kriss-clotilde/"
                            target="_blank"
-                    ><i className="fab fa-linkedin-in fa-2x"></i>lien linkdin</a>
+                    >Linkdin</a>
                     </li>
                 </ul>
 

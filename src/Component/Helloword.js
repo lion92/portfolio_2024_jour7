@@ -4,9 +4,13 @@ import Header from "./Header";
 const Helloword = () => {
     return (
         <div>
-            <h1 style={{color:"black"}}>Bienvenue dans mon portfolio</h1>
-            <a style={{color: "blueviolet"}} rel="kriss" href="https://projet.krissclotilde.com/" target="_blank">Qui suis
-                je?</a>
+
+            <Header></Header>
+
+            <h1 style={{textAlign:"center"}}>Bienvenue dans mon portfolio</h1>
+            <div><img src="https://projet.krissclotilde.com/asset/avatar-gratuit.png" alt="photo de moi"
+                      className="card__img"/></div>
+
         </div>
     );
 };

@@ -16,9 +16,7 @@ const ListProjets = () => {
                     <div className="card__body">
                         <a target="_blank" href="https://gestiontaches.krissclotilde.com/"><h3
                             className="card__title">Application de type budget</h3></a>
-
                     </div>
-
                 </div>
 
                 <div className="card" id="list2">
@@ -26,8 +24,7 @@ const ListProjets = () => {
                     <div className="card__body">
                         <a target="_blank" href="https://github.com/lion92/marsRoverVersion3"><h3
                             className="card__title"> kata de code</h3></a>
-                            <div className="card__desc">
-                            </div>
+
                     </div>
 
                 </div>
