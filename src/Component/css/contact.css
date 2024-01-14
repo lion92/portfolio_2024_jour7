@@ -1,0 +1,41 @@
+
+
+.blanc {
+    padding: 50px;
+    color: #495057;
+    width: 25%;
+    height: 300px;
+    background-color: #fff;
+    opacity: 0.95;
+    margin: 10% auto;
+    border: 1px solid #ced4da;
+    border-radius: 0.4rem;
+    color: dark-grey;
+    text-align: center;
+}
+
+.avatar{
+    border-color: white;
+    border-width: 1px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight:lighter;
+    font-weight: lighter;
+}
+
+p {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.iconify {
+    color: dark-blue;
+    width: 32px;
+    height: 32px;
+}
+
