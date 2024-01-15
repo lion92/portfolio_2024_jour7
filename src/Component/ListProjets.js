@@ -3,12 +3,14 @@
 import React from 'react';
 import Header from "./Header";
 import './css/listProjets.css'
+import Footer from "./Footer";
 
 
 const ListProjets = () => {
     return (
         <div>
             <Header></Header>
+            <h1>Projets</h1>
             <div className="container">
 
                 <div className="card" id="list1">
@@ -49,6 +51,7 @@ const ListProjets = () => {
                 </div>
 
             </div>
+
         </div>
     );
 };

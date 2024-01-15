@@ -1,19 +1,18 @@
 
-
 .blanc {
-    padding: 10px;
+
     color: #495057;
-    width: 50%;
-    height: 100%;
     background-color: #fff;
-    opacity: 0.95;
-    margin: 15% auto;
+    width: 350px;
+    position: relative;
+    margin: auto;
+    top:150px;
     border: 1px solid #722dd2;
     border-radius: 0.4rem;
     text-align: center;
 }
 
-.avatar{
+.avatar {
     border-color: white;
     border-width: 1px;
     border-radius: 50%;
@@ -22,7 +21,7 @@
 
 h1 {
     font-size: 32px;
-    font-weight:lighter;
+    font-weight: lighter;
     font-weight: lighter;
 }
 

@@ -13,7 +13,6 @@ a {
 }
 
 h1 {
-    color: #ff6363;
     font-weight: bold;
 }
 
@@ -218,7 +217,6 @@ p {
 /* bouncing arrow */
 
 .fa-chevron-down {
-    color: #ff6363 !important;
     bottom: 10px;
     margin-left: -30px;
     cursor: pointer;
@@ -286,8 +284,8 @@ p {
 .skillbar {
     position: relative;
     display: block;
-    margin-bottom: 15px;
-    width: 100%;
+
+    width: 30%;
     background: #efefef;
     height: 30px;
     border-radius: 3px;
@@ -303,6 +301,7 @@ p {
 
     -o-transition-property: width, background-color;
     transition-property: width, background-color;
+    margin: auto auto 15px;
 }
 
 .skillbar-title {
@@ -660,4 +659,7 @@ label {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
+}
+body{
+    background-color: wheat;
 }

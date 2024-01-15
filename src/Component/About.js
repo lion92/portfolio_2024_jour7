@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/about.css'
 import Header from "./Header";
-import Helloword from "./Helloword";
+import Footer from "./Footer";
 
 const About = () => {
     return (
@@ -12,7 +12,7 @@ const About = () => {
                     ME</h1>
                 <div className="content">
 
-                    <p style={{fontSize: "30px", color: "blueviolet", textTransform : 'initial'}}>
+                    <p style={{fontSize: "30px", color:"black", textTransform : 'initial'}}>
                         Je suis kriss CLOTILDE, développeur en reconversion. <br/>
                         Je suis disponible pour une mission en java ou javascript. <br/>
                         J'aime le craft et les bonnes pratiques de programmations. <br/>
@@ -55,6 +55,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
