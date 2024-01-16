@@ -13,6 +13,7 @@ button {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+    text-align: center;
 }
 
 .card {
