@@ -1,45 +1,56 @@
-.photo img{
+.photo img {
     position: relative;
-    top:7%;
+    top: 7%;
     width: 70vw;
     height: 70vh;
-    animation: arriveGauche 3s ;
+    animation: arriveGauche 3s;
 }
-h1{
+
+h1 {
     position: relative;
     color: black;
     left: -100vw;
     text-align: start;
-    animation: arriveGauche 2s ;
+    animation: arriveGauche 2s;
 }
-@keyframes arriveImage {
-    0%{display: none; left: -100vw}
-    100%{
-       display: block; left: 0;
-    }
 
-}
-@keyframes arriveGauche {
-    0%{left: -100vw}
-    100%{
+@keyframes arriveImage {
+    0% {
+        display: none;
+        left: -100vw
+    }
+    100% {
+        display: block;
         left: 0;
     }
 
 }
-h1{
+
+@keyframes arriveGauche {
+    0% {
+        left: -100vw
+    }
+    100% {
+        left: 0;
+    }
+
+}
+
+h1 {
     position: relative;
     color: #1a042d;
     left: 0;
     text-align: start;
-    animation: arriveGauche 3s ;
+    animation: arriveGauche 2s;
 }
-.photo img{
+
+.photo img {
     display: block;
     position: relative;
-    top:7%;
+    top: 7%;
     left: 0;
     width: 70vw;
     height: 70vh;
     margin: auto;
-    animation: arriveGauche 5s ;
+    animation: arriveGauche 1s;
 }

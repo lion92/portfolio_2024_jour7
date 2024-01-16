@@ -6,16 +6,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: "Raleway", sans-serif !important;
+    background-image: url("../image/fondecran.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 @media screen and (max-width: 1500px) {
-    .timeline ul li div{
+    .timeline ul li div {
         display: flex;
         flex-direction: column;
-        width: 100%;
+
         flex-wrap: wrap;
         background-color: lightcoral;
         width: 50vw;
-        margin: auto;
         justify-content: center;
         align-items: center;
         position: relative;
@@ -23,27 +28,28 @@
         font-size: 22px;
         margin-bottom: 30px;
     }
+
     .timeline ul li div {
-        border:10px solid black;
+        border: 10px solid black;
         padding: 5px;
     }
 
 }
+
 @media screen and (min-width: 1500px) {
 
 
     body {
-        font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-        background: #44beda;
-        color: #fff;
-        overflow-x: hidden;
-        padding-bottom: 50px;
+        font-family: "Raleway", sans-serif !important;
+        background-image: url("../image/fondecran.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
 
     /* INTRO SECTION
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
     .intro {
         background: #f45b69;
         padding: 100px 0;
@@ -62,7 +68,6 @@
 
     /* TIMELINE
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
     .timeline ul {
         background: #456990;
         padding: 50px 0;
@@ -137,7 +142,6 @@
 
     /* EFFECTS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
     .timeline ul li::after {
         transition: background 0.5s ease-in-out;
     }
@@ -168,11 +172,11 @@
 
     /* GENERAL MEDIA QUERIES
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
     @media screen and (max-width: 900px) {
         .timeline ul li div {
             width: 250px;
         }
+
         .timeline ul li:nth-child(even) div {
             left: -289px;
             /*250+45-6*/
@@ -183,12 +187,15 @@
         .timeline ul li {
             margin-left: 20px;
         }
+
         .timeline ul li div {
             width: calc(100vw - 91px);
         }
+
         .timeline ul li:nth-child(even) div {
             left: 45px;
         }
+
         .timeline ul li:nth-child(even) div::before {
             left: -15px;
             border-width: 8px 16px 8px 0;

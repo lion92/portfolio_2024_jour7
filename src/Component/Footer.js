@@ -15,9 +15,7 @@ const Footer = () => {
                     <p>Développeur Java et Javascript</p>
 
 
-
                 </div>
-
 
 
             </footer>

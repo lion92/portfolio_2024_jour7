@@ -2,6 +2,7 @@ import React from 'react';
 import './css/header.css'
 import {NavLink} from "react-router-dom";
 
+
 const Header = () => {
 
     return (
@@ -19,10 +20,11 @@ const Header = () => {
                         </NavLink></li>
                         <li><NavLink to={"/Projets"}>
                             <li>Projets</li>
-                        </NavLink></li><li>
-                        <NavLink to={"/Parcours"}>
-                            <li>Parcours</li>
                         </NavLink></li>
+                        <li>
+                            <NavLink to={"/Parcours"}>
+                                <li>Parcours</li>
+                            </NavLink></li>
                         <li><NavLink to={"/Contact"}>
                             <li>Contact</li>
                         </NavLink></li>
@@ -30,6 +32,7 @@ const Header = () => {
 
                 </nav>
             </header>
+
         </>
     )
 }

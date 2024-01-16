@@ -3,16 +3,17 @@ import './css/about.css'
 import Header from "./Header";
 import Footer from "./Footer";
 
+
 const About = () => {
     return (
         <div>
             <Header></Header>
             <div className="section" data-anchor="skills">
-                <h1 className="wow fadeInDown" data-wow-delay="0.2s">ABOUT
+                <h1 style={{color: "wheat"}}>ABOUT
                     ME</h1>
                 <div className="content">
 
-                    <p style={{fontSize: "30px", color:"black", textTransform : 'initial'}}>
+                    <p style={{fontSize: "30px", color: "white", textTransform: 'initial'}}>
                         Je suis kriss CLOTILDE, développeur en reconversion. <br/>
                         Je suis disponible pour une mission en java ou javascript. <br/>
                         J'aime le craft et les bonnes pratiques de programmations. <br/>
@@ -55,7 +56,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Footer></Footer>
         </div>
     );
 };

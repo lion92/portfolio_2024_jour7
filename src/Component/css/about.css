@@ -1,9 +1,5 @@
 /* general styles */
 
-body {
-    font-family: "Raleway", sans-serif !important;
-}
-
 ul {
     list-style-type: none;
 }
@@ -203,8 +199,7 @@ p {
 }
 
 .aboutme {
-    background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg")
-    no-repeat;
+    background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -226,7 +221,6 @@ p {
 }
 
 /* Scroll down indicator (bouncing) */
-
 
 
 @-moz-keyframes bounce {
@@ -281,6 +275,7 @@ p {
     height: auto;
 
 }
+
 .skillbar {
     position: relative;
     display: block;
@@ -347,11 +342,13 @@ p {
     position: absolute;
     right: 10px;
     top: 0;
-    font-size: 11px;
+    font-size: 18px;
     height: 30px;
     line-height: 30px;
     color: #ffffff;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(236, 34, 41, 0.5);
+    font-weight: bold;
+
 }
 
 /* portfolio section */
@@ -427,6 +424,7 @@ p {
         transform: translateX(10px);
     }
 }
+
 .shake {
     animation-name: shake;
 }
@@ -575,7 +573,6 @@ label {
 }
 
 
-
 .blinking-cursor {
     font-weight: 500;
     margin-left: 4px;
@@ -660,6 +657,7 @@ label {
     -moz-border-radius: 4px;
     border-radius: 4px;
 }
-body{
+
+body {
     background-color: wheat;
 }

@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 nav {
     display: -webkit-flex;
     display: -moz-flex;
@@ -15,6 +16,7 @@ nav {
     min-height: 10vh;
     background: #4bada9;
 }
+
 .logo {
     color: #fff;
     text-transform: capitalize;
@@ -23,9 +25,11 @@ nav {
     font-weight: 900;
     letter-spacing: 1px;
 }
+
 .logo span {
     color: deepskyblue;
 }
+
 .menu {
     display: -webkit-flex;
     display: -moz-flex;
@@ -35,9 +39,11 @@ nav {
     justify-content: space-around;
     width: 30%;
 }
+
 .menu li {
     list-style: none;
 }
+
 .menu a {
     color: #fff;
     text-decoration: none;
@@ -46,13 +52,16 @@ nav {
     font-weight: 600;
     transition: .9s;
 }
+
 .menu a:hover {
     letter-spacing: 2px;
 }
+
 .bar {
     display: none;
     cursor: pointer;
 }
+
 .bar div {
     width: 25px;
     height: 3px;
@@ -60,6 +69,7 @@ nav {
     margin: 5px;
     transition: all .5s ease;
 }
-h5{
+
+h5 {
     color: #f6f0f0;
 }

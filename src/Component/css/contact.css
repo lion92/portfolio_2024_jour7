@@ -1,15 +1,13 @@
 
 .blanc {
 
-    color: #495057;
-    background-color: #fff;
-    width: 350px;
-    position: relative;
-    margin: auto;
-    top:150px;
-    border: 1px solid #722dd2;
-    border-radius: 0.4rem;
-    text-align: center;
+    color: #d2d9e0;
+    border: white solid 5px;
+    padding: 20px;
+
+}
+a{
+    color: dodgerblue;
 }
 
 .avatar {
@@ -17,11 +15,12 @@
     border-width: 1px;
     border-radius: 50%;
     width: 100px;
+    height: 100px;
+
 }
 
 h1 {
     font-size: 32px;
-    font-weight: lighter;
     font-weight: lighter;
 }
 
@@ -29,11 +28,6 @@ p {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: lighter;
-}
-
-.iconify {
-    color: dark-blue;
-    width: 32px;
-    height: 32px;
+    color: white;
 }
 

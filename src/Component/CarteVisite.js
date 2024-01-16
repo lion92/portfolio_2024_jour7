@@ -6,20 +6,21 @@ import Footer from "./Footer";
 const CarteVisite = () => {
     return (
         <div>
-<Header></Header>
+            <Header></Header>
             <h1>Carte de visite</h1>
-            <div className="blanc">
+            <div className="container">
+                <div className="blanc">
 
-                <h2>Kriss CLOTILDE</h2>
-                <p>Developpeur fullstack</p>
+                    <h2>Kriss CLOTILDE</h2>
+                    <p>Developpeur fullstack</p>
 
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/kriss-clotilde/"
-                           target="_blank"
-                    >Linkdin</a>
-                    </li>
-                </ul>
-
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/kriss-clotilde/"
+                               target="_blank"
+                        >Linkdin</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <Footer></Footer>
         </div>
