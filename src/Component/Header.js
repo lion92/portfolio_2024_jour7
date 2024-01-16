@@ -16,7 +16,7 @@ const Header = () => {
                     </div>
                     <ul className="menu">
                         <li><NavLink to={"/About"}>
-                            <li>About</li>
+                            <li>A Propos</li>
                         </NavLink></li>
                         <li><NavLink to={"/Projets"}>
                             <li>Projets</li>
@@ -31,6 +31,7 @@ const Header = () => {
                     </ul>
 
                 </nav>
+
             </header>
 
         </>

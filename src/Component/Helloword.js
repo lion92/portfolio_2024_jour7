@@ -11,7 +11,7 @@ const Helloword = () => {
 
             <h1 style={{textAlign: "center"}}>Bienvenue dans mon portfolio</h1>
             <div className="photo"><img src="https://projet.krissclotilde.com/asset/avatar-gratuit.png"
-                                        alt="photo de moi"
+                                        alt="photodemoi"
                                         className="card__img"/></div>
             <Footer></Footer>
 

@@ -1,8 +1,8 @@
 .photo img {
     position: relative;
     top: 7%;
-    width: 70vw;
-    height: 70vh;
+    width: 40vw;
+    height: 40vh;
     animation: arriveGauche 3s;
 }
 
@@ -47,10 +47,10 @@ h1 {
 .photo img {
     display: block;
     position: relative;
-    top: 7%;
+    top: 10%;
     left: 0;
-    width: 70vw;
-    height: 70vh;
+    width: 50vw;
+    height: 50vh;
     margin: auto;
     animation: arriveGauche 1s;
 }

@@ -10,10 +10,11 @@ const Footer = () => {
 
                 <div className="footer-content">
 
-                    <h3>Kriss CLOTILDE</h3>
-
-                    <p>Développeur Java et Javascript</p>
-
+                    <h2>Kriss CLOTILDE</h2>
+                    <h3>Développeur</h3>
+                    <a rel="noreferrer"  style={{color: "dodgerblue"}} href="https://www.linkedin.com/in/kriss-clotilde/"
+                       target="_blank"
+                    >Linkdin</a>
 
                 </div>
 

@@ -9,8 +9,7 @@ const About = () => {
         <div>
             <Header></Header>
             <div className="section" data-anchor="skills">
-                <h1 style={{color: "wheat"}}>ABOUT
-                    ME</h1>
+                <h1 style={{color: "wheat"}}>A PROPOS DE MOI</h1>
                 <div className="content">
 
                     <p style={{fontSize: "30px", color: "white", textTransform: 'initial'}}>
@@ -56,6 +55,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

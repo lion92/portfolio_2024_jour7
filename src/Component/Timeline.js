@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/timeline.css'
 import Header from "./Header";
+import Footer from "./Footer";
 
 const Timeline = () => {
     return (

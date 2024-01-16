@@ -7,21 +7,8 @@ const CarteVisite = () => {
     return (
         <div>
             <Header></Header>
-            <h1>Carte de visite</h1>
-            <div className="container">
-                <div className="blanc">
 
-                    <h2>Kriss CLOTILDE</h2>
-                    <p>Developpeur fullstack</p>
 
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/kriss-clotilde/"
-                               target="_blank"
-                        >Linkdin</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
             <Footer></Footer>
         </div>
     );
