@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from "./Header";
 import './css/listProjets.css'
-import Footer from "./Footer";
 
 
 const ListProjets = () => {

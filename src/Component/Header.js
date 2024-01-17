@@ -78,7 +78,9 @@ export default function AccountMenu() {
                     </NavLink>
                 </MenuItem>
                 <MenuItem>
-                    <NavLink to={"/Projets"}>Projets</NavLink>
+                    <NavLink to={"/Projets"}>
+                        Projets
+                    </NavLink>
                 </MenuItem>
 
                 <MenuItem>
