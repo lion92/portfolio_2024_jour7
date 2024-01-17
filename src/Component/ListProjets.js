@@ -55,7 +55,7 @@ const ListProjets = () => {
                 </div>
 
             </div>
-            <Footer></Footer>
+
         </div>
     );
 };

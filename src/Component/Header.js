@@ -3,14 +3,8 @@ import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import Tooltip from '@mui/material/Tooltip';
-import PersonAdd from '@mui/icons-material/PersonAdd';
-import Settings from '@mui/icons-material/Settings';
-import Logout from '@mui/icons-material/Logout';
 import {NavLink} from "react-router-dom";
 
 export default function AccountMenu() {
@@ -75,12 +69,12 @@ export default function AccountMenu() {
             >
                 <MenuItem>
                     <NavLink to={"/"}>
-                        <li>Bienvenue</li>
+                        Bienvenue
                     </NavLink>
                 </MenuItem>
                 <MenuItem>
                     <NavLink to={"/About"}>
-                        <li>A Propos</li>
+                        A Propos
                     </NavLink>
                 </MenuItem>
                 <MenuItem>
@@ -89,12 +83,12 @@ export default function AccountMenu() {
 
                 <MenuItem>
                     <NavLink to={"/Parcours"}>
-                        <li>Parcours</li>
+                        Parcours
                     </NavLink>
                 </MenuItem>
                 <MenuItem>
                     <NavLink to={"/Contact"}>
-                        <li>Contact</li>
+                        Contact
                     </NavLink>
                 </MenuItem>
             </Menu>
