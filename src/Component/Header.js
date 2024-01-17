@@ -67,32 +67,32 @@ export default function AccountMenu() {
                 transformOrigin={{horizontal: 'right', vertical: 'top'}}
                 anchorOrigin={{horizontal: 'right', vertical: 'bottom'}}
             >
-                <MenuItem>
-                    <NavLink to={"/"}>
-                        Bienvenue
-                    </NavLink>
-                </MenuItem>
-                <MenuItem>
-                    <NavLink to={"/About"}>
-                        A Propos
-                    </NavLink>
-                </MenuItem>
-                <MenuItem>
-                    <NavLink to={"/Projets"}>
-                        Projets
-                    </NavLink>
-                </MenuItem>
 
-                <MenuItem>
+                    <NavLink to={"/"}>
+                        <MenuItem> Bienvenue </MenuItem>
+                    </NavLink>
+
+
+                    <NavLink to={"/About"}>
+                        <MenuItem>  A Propos </MenuItem>
+                    </NavLink>
+
+
+                    <NavLink to={"/Projets"}>
+                        <MenuItem>   Projets </MenuItem>
+                    </NavLink>
+
+
+
                     <NavLink to={"/Parcours"}>
-                        Parcours
+                        <MenuItem>  Parcours     </MenuItem>
                     </NavLink>
-                </MenuItem>
-                <MenuItem>
+
+
                     <NavLink to={"/Contact"}>
-                        Contact
+                        <MenuItem>    Contact</MenuItem>
                     </NavLink>
-                </MenuItem>
+
             </Menu>
         </React.Fragment>
     );
