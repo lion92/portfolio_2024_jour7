@@ -1,56 +1,131 @@
-import React from 'react';
-import './css/timeline.css'
+import * as React from 'react';
+import Timeline from '@mui/lab/Timeline';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
+import TimelineDot from '@mui/lab/TimelineDot';
+import FastfoodIcon from '@mui/icons-material/Fastfood';
+import LaptopMacIcon from '@mui/icons-material/LaptopMac';
+import HotelIcon from '@mui/icons-material/Hotel';
+import RepeatIcon from '@mui/icons-material/Repeat';
+import Typography from '@mui/material/Typography';
 import Header from "./Header";
 import Footer from "./Footer";
 
-const Timeline = () => {
+export default function Temps() {
     return (
-        <div>
+        <>
             <Header></Header>
-            <h1>Parcours</h1>
-            <section className="timeline">
-                <ul>
-                    <li>
-                        <div>
-                            <time>2015-2016</time>
-                            Professeur contractuel science de laboratoire
-                            au lycée
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <time>2018-2019</time>
-                            Développeur java
-                            DSI
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <time>2019-2020</time>
-                            Developpeur java
-                            Arkance systems
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <time> 2021</time>
-                            Developpeur Node Js /Jest
-                            Ideta
+            <div className="container">
+        <Timeline position="alternate">
+            <TimelineItem>
+                <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    align="right"
+                    variant="body2"
+                    color="text.secondary"
+                >
+                 2015-1016
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot>
 
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <time>2022-Actuellement</time>
-                            Software Craftsman/Développeur FullStack
-                            Arolla
-                        </div>
-                    </li>
-                </ul>
-            </section>
+                    </TimelineDot>
+                    <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    Professeur contractuel science de laboratoire
+                    au lycée
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="text.secondary"
+                >
+                    2018-2019
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot color="primary">
+                        <LaptopMacIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent sx={{ py: '12px', px: 2 }}>
 
-        </div>
-    );
-};
+                    Développeur java
+                    DSI
+                </TimelineContent>
+            </TimelineItem> <TimelineItem>
+                <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    align="right"
+                    variant="body2"
+                    color="text.secondary"
+                >
+                 2019-2020
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot>
+                        <LaptopMacIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    Arkances Développeur Java
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="text.secondary"
+                >
+                    2021
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot color="primary">
+                        <LaptopMacIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent sx={{ py: '12px', px: 2 }}>
 
-export default Timeline;
+                    Ideta Développeur Node
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    align="right"
+                    variant="body2"
+                    color="text.secondary"
+                >
+                    2022-Actuellement
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot>
+                        <LaptopMacIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                 Développeur Fullstack Mission pour Edf <br/>
+                    Consultant chez Arolla
+                </TimelineContent>
+            </TimelineItem>
+        </Timeline>
+
+            </div>
+            <Footer></Footer>
+        </>
+            );
+}
