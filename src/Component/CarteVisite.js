@@ -11,6 +11,7 @@ export default function CarteVisite() {
     return (
         <div>
             <Header></Header>
+            <h1>Carte de visite</h1>
             <div  className="container">
         <Card style={{padding:"20px"}} sx={{ maxWidth: 450 }}>
             <CardMedia

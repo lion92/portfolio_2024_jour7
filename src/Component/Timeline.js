@@ -18,114 +18,115 @@ export default function Temps() {
     return (
         <>
             <Header></Header>
+            <h1>Parcours</h1>
             <div className="container">
-        <Timeline position="alternate">
-            <TimelineItem>
-                <TimelineOppositeContent
-                    sx={{ m: 'auto 0' }}
-                    align="right"
-                    variant="body2"
-                    color="text.secondary"
-                >
-                 2015-1016
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineConnector />
-                    <TimelineDot>
+                <Timeline position="alternate">
+                    <TimelineItem>
+                        <TimelineOppositeContent
+                            sx={{m: 'auto 0'}}
+                            align="right"
+                            variant="body2"
+                            color="text.secondary"
+                        >
+                            2015-1016
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineConnector/>
+                            <TimelineDot>
 
-                    </TimelineDot>
-                    <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    Professeur contractuel science de laboratoire
-                    au lycée
-                </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-                <TimelineOppositeContent
-                    sx={{ m: 'auto 0' }}
-                    variant="body2"
-                    color="text.secondary"
-                >
-                    2018-2019
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineConnector />
-                    <TimelineDot color="primary">
-                        <LaptopMacIcon />
-                    </TimelineDot>
-                    <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                            </TimelineDot>
+                            <TimelineConnector/>
+                        </TimelineSeparator>
+                        <TimelineContent sx={{py: '12px', px: 2}}>
+                            Professeur contractuel science de laboratoire
+                            au lycée
+                        </TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineOppositeContent
+                            sx={{m: 'auto 0'}}
+                            variant="body2"
+                            color="text.secondary"
+                        >
+                            2018-2019
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineConnector/>
+                            <TimelineDot color="primary">
+                                <LaptopMacIcon/>
+                            </TimelineDot>
+                            <TimelineConnector/>
+                        </TimelineSeparator>
+                        <TimelineContent sx={{py: '12px', px: 2}}>
 
-                    Développeur java
-                    DSI
-                </TimelineContent>
-            </TimelineItem> <TimelineItem>
-                <TimelineOppositeContent
-                    sx={{ m: 'auto 0' }}
-                    align="right"
-                    variant="body2"
-                    color="text.secondary"
-                >
-                 2019-2020
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineConnector />
-                    <TimelineDot>
-                        <LaptopMacIcon />
-                    </TimelineDot>
-                    <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    Arkances Développeur Java
-                </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-                <TimelineOppositeContent
-                    sx={{ m: 'auto 0' }}
-                    variant="body2"
-                    color="text.secondary"
-                >
-                    2021
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineConnector />
-                    <TimelineDot color="primary">
-                        <LaptopMacIcon />
-                    </TimelineDot>
-                    <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                            Développeur java
+                            DSI
+                        </TimelineContent>
+                    </TimelineItem> <TimelineItem>
+                    <TimelineOppositeContent
+                        sx={{m: 'auto 0'}}
+                        align="right"
+                        variant="body2"
+                        color="text.secondary"
+                    >
+                        2019-2020
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                        <TimelineConnector/>
+                        <TimelineDot>
+                            <LaptopMacIcon/>
+                        </TimelineDot>
+                        <TimelineConnector/>
+                    </TimelineSeparator>
+                    <TimelineContent sx={{py: '12px', px: 2}}>
+                        Arkances Développeur Java
+                    </TimelineContent>
+                </TimelineItem>
+                    <TimelineItem>
+                        <TimelineOppositeContent
+                            sx={{m: 'auto 0'}}
+                            variant="body2"
+                            color="text.secondary"
+                        >
+                            2021
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineConnector/>
+                            <TimelineDot color="primary">
+                                <LaptopMacIcon/>
+                            </TimelineDot>
+                            <TimelineConnector/>
+                        </TimelineSeparator>
+                        <TimelineContent sx={{py: '12px', px: 2}}>
 
-                    Ideta Développeur Node
-                </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-                <TimelineOppositeContent
-                    sx={{ m: 'auto 0' }}
-                    align="right"
-                    variant="body2"
-                    color="text.secondary"
-                >
-                    2022-Actuellement
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineConnector />
-                    <TimelineDot>
-                        <LaptopMacIcon />
-                    </TimelineDot>
-                    <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                 Développeur Fullstack Mission pour Edf <br/>
-                    Consultant chez Arolla
-                </TimelineContent>
-            </TimelineItem>
-        </Timeline>
+                            Ideta Développeur Node
+                        </TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineOppositeContent
+                            sx={{m: 'auto 0'}}
+                            align="right"
+                            variant="body2"
+                            color="text.secondary"
+                        >
+                            2022-Actuellement
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineConnector/>
+                            <TimelineDot>
+                                <LaptopMacIcon/>
+                            </TimelineDot>
+                            <TimelineConnector/>
+                        </TimelineSeparator>
+                        <TimelineContent sx={{py: '12px', px: 2}}>
+                            Développeur Fullstack Mission pour Edf <br/>
+                            Consultant chez Arolla
+                        </TimelineContent>
+                    </TimelineItem>
+                </Timeline>
 
             </div>
             <Footer></Footer>
         </>
-            );
+    );
 }
