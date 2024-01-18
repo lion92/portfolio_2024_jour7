@@ -104,7 +104,7 @@ export default function Temps() {
                             variant="body2"
                             color="text.secondary"
                         >
-                            <p> 2022-Actuellement</p>
+                            <p style={{color:"red"}}> 2022-Actuellement</p>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector/>
@@ -114,7 +114,7 @@ export default function Temps() {
                             <TimelineConnector/>
                         </TimelineSeparator>
                         <TimelineContent sx={{py: '12px', px: 2}}>
-                            <p> 2022-Actuellement</p>
+                            <p style={{color:"red"}}> Arolla</p>
                         </TimelineContent>
                     </TimelineItem>
                 </Timeline>
