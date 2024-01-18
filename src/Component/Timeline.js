@@ -23,7 +23,7 @@ export default function Temps() {
                             variant="body2"
                             color="text.secondary"
                         >
-                            2015-1016
+                            <p>2015-1016</p>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector/>
@@ -33,8 +33,8 @@ export default function Temps() {
                             <TimelineConnector/>
                         </TimelineSeparator>
                         <TimelineContent sx={{py: '12px', px: 2}}>
-                            Professeur contractuel science de laboratoire
-                            au lycée
+                            <p>Professeur contractuel science de laboratoire
+                                au lycée</p>
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
@@ -43,7 +43,7 @@ export default function Temps() {
                             variant="body2"
                             color="text.secondary"
                         >
-                            2018-2019
+                            <p>2018-2019</p>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector/>
@@ -54,8 +54,8 @@ export default function Temps() {
                         </TimelineSeparator>
                         <TimelineContent sx={{py: '12px', px: 2}}>
 
-                            Développeur java
-                            DSI
+                            <p>Développeur java
+                                DSI</p>
                         </TimelineContent>
                     </TimelineItem> <TimelineItem>
                     <TimelineOppositeContent
@@ -64,7 +64,7 @@ export default function Temps() {
                         variant="body2"
                         color="text.secondary"
                     >
-                        2019-2020
+                        <p>2019-2020</p>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector/>
@@ -74,7 +74,7 @@ export default function Temps() {
                         <TimelineConnector/>
                     </TimelineSeparator>
                     <TimelineContent sx={{py: '12px', px: 2}}>
-                        Arkances Développeur Java
+                        <p> Arkances Développeur Java</p>
                     </TimelineContent>
                 </TimelineItem>
                     <TimelineItem>
@@ -83,7 +83,7 @@ export default function Temps() {
                             variant="body2"
                             color="text.secondary"
                         >
-                            2021
+                            <p> 2021</p>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector/>
@@ -93,8 +93,8 @@ export default function Temps() {
                             <TimelineConnector/>
                         </TimelineSeparator>
                         <TimelineContent sx={{py: '12px', px: 2}}>
-
-                            Ideta Développeur Node
+                            <p>
+                                Ideta Développeur Node</p>
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
@@ -104,7 +104,7 @@ export default function Temps() {
                             variant="body2"
                             color="text.secondary"
                         >
-                            2022-Actuellement
+                            <p> 2022-Actuellement</p>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector/>
@@ -114,8 +114,7 @@ export default function Temps() {
                             <TimelineConnector/>
                         </TimelineSeparator>
                         <TimelineContent sx={{py: '12px', px: 2}}>
-                            Développeur Fullstack Mission pour Edf <br/>
-                            Consultant chez Arolla
+                            <p> 2022-Actuellement</p>
                         </TimelineContent>
                     </TimelineItem>
                 </Timeline>

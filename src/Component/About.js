@@ -15,7 +15,7 @@ const About = () => {
                 <h1 style={{color: "black"}}>A PROPOS DE MOI</h1>
                 <div className="content">
 
-                    <p style={{fontSize: "30px", color: "black", textTransform: 'initial'}}>
+                    <p style={{fontSize: "30px", color: "white", textTransform: 'initial'}}>
                         Je suis kriss CLOTILDE, développeur en reconversion. <br/>
                         Je suis disponible pour une mission en java ou javascript. <br/>
                         J'aime le craft et les bonnes pratiques de programmations. <br/>

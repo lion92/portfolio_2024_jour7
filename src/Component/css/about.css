@@ -671,6 +671,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-h1,p,h2,h5,span{
+h1,p,h5,span {
     color: white;
+}
+h2{
+    color: #4bada9;
 }

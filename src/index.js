@@ -8,7 +8,6 @@ import ListProjets from "./Component/ListProjets";
 import CarteVisite from "./Component/CarteVisite";
 import Timeline from "./Component/Timeline";
 
-
 const Root = () => (
     <Router>
         <Switch>
@@ -17,6 +16,7 @@ const Root = () => (
             <Route exact path="/Projets" component={ListProjets}/>
             <Route exact path="/Parcours" component={Timeline}/>
             <Route exact path="/Contact" component={CarteVisite}/>
+            <Route exact path="*" component={Helloword}/>
 
         </Switch>
     </Router>
