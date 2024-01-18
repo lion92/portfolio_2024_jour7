@@ -666,6 +666,11 @@ label {
     border-radius: 4px;
 }
 
-body {
-    background-color: wheat;
+body{
+    background-image: url("../image/fondecran.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1,p,h2,h5,span{
+    color: white;
 }
