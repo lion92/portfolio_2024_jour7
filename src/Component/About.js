@@ -2,8 +2,11 @@ import React from 'react';
 import './css/about.css'
 import Header from "./Header";
 import {LinearProgress} from "@mui/material";
-
-
+import { FaJava } from "react-icons/fa";
+import { RiJavascriptFill } from "react-icons/ri";
+import { SiSpring } from "react-icons/si";
+import { FaAngular } from "react-icons/fa6";
+import { FaReact } from "react-icons/fa";
 const About = () => {
     return (
         <div>
@@ -20,26 +23,37 @@ const About = () => {
 
 
                 </div>
-                <h2>Java </h2>
-                <LinearProgress style={{width: '40vw', margin: '50px auto'}}
-                                variant="determinate" value={90}/>
-                <h2>Spring </h2>
-                <LinearProgress
-                    style={{width: '40vw', margin: '50px auto'}}
-                    variant="determinate" value={60}/>
+                <div><h2><FaJava style={{
+                    fontSize: '40px'
+                }}/>Java </h2>
+                    <LinearProgress style={{width: '40vw', margin: '50px auto'}}
+                                    variant="determinate" value={90}/>
+                    <h2><SiSpring style={{
+                        fontSize: '40px'
+                    }}/>Spring </h2>
+                    <LinearProgress
+                        style={{width: '40vw', margin: '50px auto'}}
+                        variant="determinate" value={60}/>
 
-                <h2>Javascrit </h2>
-                <LinearProgress
-                    style={{width: '40vw', margin: '50px auto'}}
-                    variant="determinate" value={80}/>
-                <h2>React </h2>
-                <LinearProgress style={{width: '40vw', margin: '50px auto'}}
-                                variant="determinate" value={60}/>
-                <h2>Angular </h2>
-                <LinearProgress
-                    style={{width: '40vw', margin: '50px auto'}}
-                    variant="determinate" value={60}/>
+                    <h2><RiJavascriptFill style={{
+                        fontSize: '40px'
+                    }}/>Javascrit </h2>
+                    <LinearProgress
+                        style={{width: '40vw', margin: '50px auto'}}
+                        variant="determinate" value={80}/>
+                    <h2><FaReact style={{
+                        fontSize: '40px'
+                    }}/>React </h2>
+                    <LinearProgress style={{width: '40vw', margin: '50px auto'}}
+                                    variant="determinate" value={60}/>
+                    <h2><FaAngular style={{
+                        fontSize: '40px'
+                    }}/>Angular </h2>
+                    <LinearProgress
+                        style={{width: '40vw', margin: '50px auto'}}
+                        variant="determinate" value={60}/>
 
+                </div>
 
 
             </div>

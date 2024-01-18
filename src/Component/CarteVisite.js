@@ -12,10 +12,10 @@ export default function CarteVisite() {
         <div>
             <Header></Header>
             <h1>Carte de visite</h1>
-            <div  className="container">
-        <Card style={{padding:"20px"}} sx={{ maxWidth: 450 }}>
+            <div >
+        <Card style={{ textAlign:'center', margin:'auto',padding:"20px"}} sx={{ maxWidth: 500 }}>
             <CardMedia
-                sx={{ height: 200 }}
+                sx={{ height: 370 }}
                 image="https://projet.krissclotilde.com/asset/avatar-gratuit.png"
                 title="Moi"
             />
