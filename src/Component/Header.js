@@ -6,7 +6,7 @@ import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
 import Tooltip from '@mui/material/Tooltip';
 import {NavLink} from "react-router-dom";
-
+import './css/menu.css'
 export default function AccountMenu() {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -56,8 +56,8 @@ export default function AccountMenu() {
                             position: 'absolute',
                             top: 0,
                             right: 14,
-                            width: 10,
-                            height: 10,
+                            width: 0,
+                            height: 0,
                             bgcolor: 'background.paper',
                             transform: 'translateY(-50%) rotate(45deg)',
                             zIndex: 0,
@@ -69,28 +69,28 @@ export default function AccountMenu() {
             >
 
                     <NavLink to={"/"}>
-                        <MenuItem> Bienvenue </MenuItem>
+                        <MenuItem> <h2>Bienvenue</h2> </MenuItem>
                     </NavLink>
 
 
                     <NavLink to={"/About"}>
-                        <MenuItem>  A Propos </MenuItem>
+                        <MenuItem>  <h2>A Propos </h2></MenuItem>
                     </NavLink>
 
 
                     <NavLink to={"/Projets"}>
-                        <MenuItem>   Projets </MenuItem>
+                        <MenuItem>  <h2>Projets </h2> </MenuItem>
                     </NavLink>
 
 
 
                     <NavLink to={"/Parcours"}>
-                        <MenuItem>  Parcours     </MenuItem>
+                        <MenuItem>   <h2>Parcours  </h2>  </MenuItem>
                     </NavLink>
 
 
                     <NavLink to={"/Contact"}>
-                        <MenuItem>    Contact</MenuItem>
+                        <MenuItem>   <h2>Contact</h2></MenuItem>
                     </NavLink>
 
             </Menu>

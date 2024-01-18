@@ -24,7 +24,7 @@ export default function CarteVisite() {
                     Developpeur
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    <a href="https://www.linkedin.com/in/kriss-clotilde/"
+                    <a  rel="noreferrer" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
                        target="_blank"
                     >Linkdin</a>
                 </Typography>
