@@ -69,28 +69,31 @@ export default function AccountMenu() {
             >
 
                     <NavLink to={"/"}>
-                        <MenuItem> <h2>Bienvenue</h2> </MenuItem>
+                        <MenuItem> <h2 className="menuTitle">Bienvenue</h2> </MenuItem>
                     </NavLink>
 
 
                     <NavLink to={"/About"}>
-                        <MenuItem>  <h2>A Propos </h2></MenuItem>
+                        <MenuItem>  <h2 className="menuTitle">A Propos </h2></MenuItem>
                     </NavLink>
 
 
                     <NavLink to={"/Projets"}>
-                        <MenuItem>  <h2>Projets </h2> </MenuItem>
+                        <MenuItem>  <h2 className="menuTitle">Projets </h2> </MenuItem>
+                    </NavLink>
+   <NavLink to={"/Youtube"}>
+                        <MenuItem>  <h2 className="menuTitle">You tube </h2> </MenuItem>
                     </NavLink>
 
 
 
                     <NavLink to={"/Parcours"}>
-                        <MenuItem>   <h2>Parcours  </h2>  </MenuItem>
+                        <MenuItem>   <h2 className="menuTitle">Parcours  </h2>  </MenuItem>
                     </NavLink>
 
 
                     <NavLink to={"/Contact"}>
-                        <MenuItem>   <h2>Contact</h2></MenuItem>
+                        <MenuItem>   <h2 className="menuTitle">Contact</h2></MenuItem>
                     </NavLink>
 
             </Menu>

@@ -7,12 +7,13 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { SiSpring } from "react-icons/si";
 import { FaAngular } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
+import Footer from "./Footer";
 const About = () => {
     return (
         <div>
             <Header></Header>
             <div className="section" data-anchor="skills">
-                <h1 style={{color: "black"}}>A PROPOS DE MOI</h1>
+                <h1 style={{color: "white"}}>A PROPOS DE MOI</h1>
                 <div className="content">
 
                     <p style={{fontSize: "30px", color: "white", textTransform: 'initial'}}>
@@ -23,40 +24,43 @@ const About = () => {
 
 
                 </div>
-                <div><h2><FaJava style={{
-                    fontSize: '40px'
-                }}/>Java </h2>
-                    <LinearProgress style={{width: '40vw', margin: '50px auto'}}
-                                    variant="determinate" value={90}/>
-                    <h2><SiSpring style={{
-                        fontSize: '40px'
-                    }}/>Spring </h2>
-                    <LinearProgress
-                        style={{width: '40vw', margin: '50px auto'}}
-                        variant="determinate" value={60}/>
+                <div className="section">
+                    <div><h2><FaJava style={{
+                        fontSize: '20px'
+                    }}/>Java </h2>
+                        <LinearProgress style={{width: '40vw', margin: '9px auto'}}
+                                        variant="determinate" value={90}/>
+                        <h2><SiSpring style={{
+                            fontSize: '40px'
+                        }}/>Spring </h2>
+                        <LinearProgress
+                            style={{width: '40vw', margin: '9px auto'}}
+                            variant="determinate" value={60}/>
 
-                    <h2><RiJavascriptFill style={{
-                        fontSize: '40px'
-                    }}/>Javascrit </h2>
-                    <LinearProgress
-                        style={{width: '40vw', margin: '50px auto'}}
-                        variant="determinate" value={80}/>
-                    <h2><FaReact style={{
-                        fontSize: '40px'
-                    }}/>React </h2>
-                    <LinearProgress style={{width: '40vw', margin: '50px auto'}}
-                                    variant="determinate" value={60}/>
-                    <h2><FaAngular style={{
-                        fontSize: '40px'
-                    }}/>Angular </h2>
-                    <LinearProgress
-                        style={{width: '40vw', margin: '50px auto'}}
-                        variant="determinate" value={60}/>
+                        <h2><RiJavascriptFill style={{
+                            fontSize: '40px'
+                        }}/>Javascrit </h2>
+                        <LinearProgress
+                            style={{width: '40vw', margin: '9px auto'}}
+                            variant="determinate" value={80}/>
+                        <h2><FaReact style={{
+                            fontSize: '40px'
+                        }}/>React </h2>
+                        <LinearProgress style={{width: '40vw', margin: '9px auto'}}
+                                        variant="determinate" value={60}/>
+                        <h2><FaAngular style={{
+                            fontSize: '40px'
+                        }}/>Angular </h2>
+                        <LinearProgress
+                            style={{width: '40vw', margin: '9px auto'}}
+                            variant="determinate" value={60}/>
+                    </div>
 
                 </div>
 
 
             </div>
+            <Footer></Footer>
         </div>
     );
 };

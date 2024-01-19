@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from "./Header";
 import './css/listProjets.css'
+import Footer from "./Footer";
 
 
 const ListProjets = () => {
@@ -73,7 +74,7 @@ const ListProjets = () => {
                 </div>
 
             </div>
-
+            <Footer></Footer>
         </div>
     );
 };

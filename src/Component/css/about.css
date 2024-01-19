@@ -1,13 +1,5 @@
 /* general styles */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@100&display=swap');
-h1,h5{
-    font-family: 'Raleway', sans-serif;
-}
-p{
-    font-family: 'Cookie', cursive;
 
-}
 ul {
     list-style-type: none;
 }
@@ -23,6 +15,10 @@ h1 {
 p {
     font-size: 20px;
     color: #484848;
+}
+
+.css-1hn8djg {
+    background-color: black;
 }
 
 .section {
@@ -666,14 +662,21 @@ label {
     border-radius: 4px;
 }
 
-body{
+body {
     background-image: url("../image/fondecran.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
-h1,p,h5,span {
+
+h1, p, h5, span {
     color: white;
 }
-h2{
+
+h2 {
+    color: #d2e1e1;
+    font-size: 2.5em
+}
+.menuTitle{
     color: #4bada9;
+    font-size: 2.5em;
 }

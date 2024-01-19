@@ -22,7 +22,7 @@ button {
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
-    background-color: #fff;
+    background-color: white;
     border-radius: 18px;
     padding: 40px;
     box-shadow: 2px 4px 12px rgba(0, 0, 0, .08);
@@ -32,8 +32,9 @@ button {
     width: 300px;
 }
 
+
 .card:hover {
-    background-color: #73cdd5;
+    background-color: #72aee8;
     transform: translateY(-10%);
 }
 
@@ -46,90 +47,25 @@ button {
 }
 
 .card__body {
-    padding: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #13385c;
+    background-color: #72aee8;
+    color: white;
+    box-shadow: 3px 2px 8px #1f258c;
 
 }
 
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
 .card__title {
     margin: 0;
     font-size: 1em;
     font-weight: normal;
 }
 
-.card__title i {
-    color: #339af0;
-    margin-right: 5px;
-    font-size: 1.1em;
-}
-
-.card__desc {
-    margin-top: 20px;
-    font-size: 1em;
-}
-
-.card__desc > span > i {
-    color: #339af0;
-    margin-right: 5px;
-}
-
-.card__desc__room, .card__desc__bed {
-    margin-right: 20px;
-    font-size: 1em;
-}
-
-.card__desc__price {
-    font-size: 1em;
-    font-weight: bold;
-    float: right;
-    text-align: right;
-}
-
-.card__desc__price--small {
-    font-size: 0.8em;
-}
-
-.card__buttons {
-    display: flex;
-    transform-origin: top;
-    transform: scaleY(0);
-    width: 100%;
-    position: absolute;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
-    z-index: 2;
-    transition: transform 0.2s ease-out;
-}
-
-.card__buttons--gray, .card__buttons--primary {
-    width: 50%;
-    display: inline-block;
-}
-
-.card__buttons--primary {
-    background: #339af0;
-    color: white;
-}
-
-.card:hover .card__body {
-    border-radius: 0;
-}
-
-.card:hover .card__buttons {
-    transform: scaleY(1);
-    transition: transform 0.2s ease-in;
-}
-
-.card:hover .card__buttons--gray {
-    border-radius: 0 0 0 5px;
-}
-
-.card:hover .card__buttons--gray:hover {
-    background: #e5e5e5;
-}
-
-.card:hover .card__buttons--primary {
-    border-radius: 0 0 5px 0;
-}
-
-.card:hover .card__buttons--primary:hover {
-    background: #008cff;
-}

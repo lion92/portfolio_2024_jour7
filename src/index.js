@@ -7,6 +7,7 @@ import About from "./Component/About";
 import ListProjets from "./Component/ListProjets";
 import CarteVisite from "./Component/CarteVisite";
 import Timeline from "./Component/Timeline";
+import ListYoutube from "./Component/ListYoutube";
 
 const Root = () => (
     <Router>
@@ -14,6 +15,7 @@ const Root = () => (
             <Route exact path="/" component={Helloword}/>
             <Route exact path="/About" component={About}/>
             <Route exact path="/Projets" component={ListProjets}/>
+            <Route exact path="/Youtube" component={ListYoutube}/>
             <Route exact path="/Parcours" component={Timeline}/>
             <Route exact path="/Contact" component={CarteVisite}/>
             <Route exact path="*" component={Helloword}/>

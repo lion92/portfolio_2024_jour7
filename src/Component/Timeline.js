@@ -8,10 +8,11 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import Header from "./Header";
+import Footer from "./Footer";
 
 export default function Temps() {
     return (
-        <>
+        <div style={{position:'relative'}}>
             <Header></Header>
             <h1>Parcours</h1>
             <div className="container">
@@ -23,7 +24,7 @@ export default function Temps() {
                             variant="body2"
                             color="text.secondary"
                         >
-                            <p>2015-1016</p>
+                            <p className="textTime">2015-1016</p>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector/>
@@ -33,7 +34,7 @@ export default function Temps() {
                             <TimelineConnector/>
                         </TimelineSeparator>
                         <TimelineContent sx={{py: '12px', px: 2}}>
-                            <p>Professeur contractuel science de laboratoire
+                            <p className="textTime">Professeur contractuel science de laboratoire
                                 au lycée</p>
                         </TimelineContent>
                     </TimelineItem>
@@ -43,7 +44,7 @@ export default function Temps() {
                             variant="body2"
                             color="text.secondary"
                         >
-                            <p>2018-2019</p>
+                            <p className="textTime">2018-2019</p>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector/>
@@ -54,7 +55,7 @@ export default function Temps() {
                         </TimelineSeparator>
                         <TimelineContent sx={{py: '12px', px: 2}}>
 
-                            <p>Développeur java
+                            <p className="textTime">Développeur java
                                 DSI</p>
                         </TimelineContent>
                     </TimelineItem> <TimelineItem>
@@ -64,7 +65,7 @@ export default function Temps() {
                         variant="body2"
                         color="text.secondary"
                     >
-                        <p>2019-2020</p>
+                        <p className="textTime">2019-2020</p>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector/>
@@ -74,7 +75,7 @@ export default function Temps() {
                         <TimelineConnector/>
                     </TimelineSeparator>
                     <TimelineContent sx={{py: '12px', px: 2}}>
-                        <p> Arkances Développeur Java</p>
+                        <p className="textTime"> Arkances Développeur Java</p>
                     </TimelineContent>
                 </TimelineItem>
                     <TimelineItem>
@@ -83,7 +84,7 @@ export default function Temps() {
                             variant="body2"
                             color="text.secondary"
                         >
-                            <p> 2021</p>
+                            <p className="textTime"> 2021</p>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector/>
@@ -93,7 +94,7 @@ export default function Temps() {
                             <TimelineConnector/>
                         </TimelineSeparator>
                         <TimelineContent sx={{py: '12px', px: 2}}>
-                            <p>
+                            <p className="textTime">
                                 Ideta Développeur Node</p>
                         </TimelineContent>
                     </TimelineItem>
@@ -104,7 +105,7 @@ export default function Temps() {
                             variant="body2"
                             color="text.secondary"
                         >
-                            <p style={{color:"red"}}> 2022-Actuellement</p>
+                            <p className="textTime" style={{color:"red"}}> 2022-Actuellement</p>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector/>
@@ -114,13 +115,13 @@ export default function Temps() {
                             <TimelineConnector/>
                         </TimelineSeparator>
                         <TimelineContent sx={{py: '12px', px: 2}}>
-                            <p style={{color:"red"}}> Arolla</p>
+                            <p className="textTime" style={{color:"red"}}> Arolla</p>
                         </TimelineContent>
                     </TimelineItem>
                 </Timeline>
 
             </div>
-
-        </>
+            <Footer></Footer>
+        </div>
     );
 }

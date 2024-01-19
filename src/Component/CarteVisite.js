@@ -24,10 +24,20 @@ export default function CarteVisite() {
                     Developpeur
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    <a  rel="noreferrer" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                    <a rel="noreferrer" href="https://www.linkedin.com/in/kriss-clotilde"
                        target="_blank"
                     >Linkdin</a>
+
+
                 </Typography>
+                <Typography variant="body2" color="text.secondary">
+                    <a rel="noreferrer" style={{color: "dodgerblue"}} href="https://github.com/lion92"
+                       target="_blank"
+                    >Git hub</a>
+
+
+                </Typography>
+
             </CardContent>
             <CardActions>
 

@@ -14,7 +14,11 @@ const Footer = () => {
                     <h3>Développeur</h3>
                     <a rel="noreferrer"  style={{color: "dodgerblue"}} href="https://www.linkedin.com/in/kriss-clotilde/"
                        target="_blank"
-                    >Linkdin</a>
+                    >Linkdin</a><br/>
+                    <a rel="noreferrer"  style={{color: "dodgerblue"}} href="https://github.com/lion92"
+                       target="_blank"
+                    >Git hub</a>
+
 
                 </div>
 
