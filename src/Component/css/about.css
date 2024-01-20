@@ -56,5 +56,9 @@ body{
 }
 h1,p,h2,h5,span{
     color: white;
-    z-index: 1
+
+    z-index: 1;
+}
+h2{
+    color: #d9658d;
 }
