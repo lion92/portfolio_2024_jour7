@@ -9,11 +9,17 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import Header from "./Header";
 import Footer from "./Footer";
+import {NavLink} from "react-router-dom";
+import MenuItem from "@mui/material/MenuItem";
 
 export default function Temps() {
     return (
         <div style={{position:'relative'}}>
             <Header></Header>
+            <button> <NavLink to={"/Contact"}>
+                <MenuItem><h2 className="menuTitle">Contact</h2></MenuItem>
+            </NavLink>
+            </button>
             <h1>Parcours</h1>
             <div className="container">
                 <Timeline position="alternate">
@@ -24,7 +30,7 @@ export default function Temps() {
                             variant="body2"
                             color="text.secondary"
                         >
-                            <p className="textTime">2015-1016</p>
+                            <p className="textTime">2015-2016</p>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector/>

@@ -41,6 +41,7 @@ h1 {
     color: white;
     left: 0;
     text-align: start;
+
     animation: arriveGauche 2s;
 }
 
@@ -53,4 +54,44 @@ h1 {
     height: 50vh;
     margin: auto;
     animation: arriveGauche 1s;
+}
+@media screen and (max-width: 700px) {
+    .photo img{
+        height:13em;
+    }
+    button {
+        background: none;
+
+        border: none;
+        cursor: pointer;
+    }
+    button{
+        height: 100%;
+    }
+    h1,h2{
+        height: 1em;
+    }
+    h2:hover{
+        background-color: #dff0d8;
+    }
+}@media screen and (max-width: 700px) {
+    .photo img{
+        height:13em;
+    }
+    button {
+        background: none;
+
+        border: none;
+        cursor: pointer;
+    }
+    button{
+        height: 100%;
+    }
+    h1,h2{
+        height: 1em;
+    }
+
+    .footer{
+        display: none;
+    }
 }

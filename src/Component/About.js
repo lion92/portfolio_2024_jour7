@@ -2,21 +2,28 @@ import React from 'react';
 import './css/about.css'
 import Header from "./Header";
 import {LinearProgress} from "@mui/material";
-import { FaJava } from "react-icons/fa";
-import { RiJavascriptFill } from "react-icons/ri";
-import { SiSpring } from "react-icons/si";
-import { FaAngular } from "react-icons/fa6";
-import { FaReact } from "react-icons/fa";
+import {FaJava, FaReact} from "react-icons/fa";
+import {RiJavascriptFill} from "react-icons/ri";
+import {SiSpring} from "react-icons/si";
+import {FaAngular} from "react-icons/fa6";
 import Footer from "./Footer";
+import {NavLink} from "react-router-dom";
+import MenuItem from "@mui/material/MenuItem";
+
 const About = () => {
+
     return (
         <div>
             <Header></Header>
+            <button> <NavLink to={"/Projets"}>
+                <MenuItem><h2 className="menuTitle">Projets </h2></MenuItem>
+            </NavLink></button>
+
             <div className="section" data-anchor="skills">
                 <h1 style={{color: "white"}}>A PROPOS DE MOI</h1>
                 <div className="content">
 
-                    <p style={{fontSize: "30px", color: "white", textTransform: 'initial'}}>
+                    <p className="about">
                         Je suis kriss CLOTILDE, développeur en reconversion. <br/>
                         Je suis disponible pour une mission en java ou javascript. <br/>
                         J'aime le craft et les bonnes pratiques de programmations. <br/>
@@ -26,33 +33,33 @@ const About = () => {
                 </div>
                 <div className="section">
                     <div><h2><FaJava style={{
-                        fontSize: '20px'
+
                     }}/>Java </h2>
-                        <LinearProgress style={{width: '40vw', margin: '9px auto'}}
+                        <LinearProgress className="aboutTechno" style={{ margin: '9px auto'}}
                                         variant="determinate" value={90}/>
                         <h2><SiSpring style={{
-                            fontSize: '40px'
+
                         }}/>Spring </h2>
-                        <LinearProgress
-                            style={{width: '40vw', margin: '9px auto'}}
+                        <LinearProgress className="aboutTechno"
+                            style={{ margin: '9px auto'}}
                             variant="determinate" value={60}/>
 
                         <h2><RiJavascriptFill style={{
-                            fontSize: '40px'
+
                         }}/>Javascrit </h2>
-                        <LinearProgress
-                            style={{width: '40vw', margin: '9px auto'}}
+                        <LinearProgress className="aboutTechno"
+                            style={{ margin: '9px auto'}}
                             variant="determinate" value={80}/>
                         <h2><FaReact style={{
-                            fontSize: '40px'
+
                         }}/>React </h2>
-                        <LinearProgress style={{width: '40vw', margin: '9px auto'}}
+                        <LinearProgress className="aboutTechno" style={{margin: '9px auto'}}
                                         variant="determinate" value={60}/>
                         <h2><FaAngular style={{
                             fontSize: '40px'
                         }}/>Angular </h2>
-                        <LinearProgress
-                            style={{width: '40vw', margin: '9px auto'}}
+                        <LinearProgress className="aboutTechno"
+                            style={{ margin: '9px auto'}}
                             variant="determinate" value={60}/>
                     </div>
 

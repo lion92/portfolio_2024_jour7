@@ -30,6 +30,7 @@ button {
     margin: 3px;
     justify-content: space-between;
     width: 300px;
+    z-index: 12;
 }
 
 
@@ -69,3 +70,28 @@ a{
     font-weight: normal;
 }
 
+@media screen and (max-width: 700px) {
+    .photo img{
+        height:13em;
+        margin-top: 50px;
+    }
+    button {
+        background: none;
+
+        border: none;
+        cursor: pointer;
+    }
+    button{
+        height: 100%;
+    }
+    h1,h2{
+        height: 1em;
+    }
+
+  .section{
+      height: 50px;
+  }
+    .footer{
+        display: none;
+    }
+}

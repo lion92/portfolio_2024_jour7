@@ -2,12 +2,18 @@ import React from 'react';
 import Header from "./Header";
 import './css/listProjets.css'
 import Footer from "./Footer";
+import {NavLink} from "react-router-dom";
+import MenuItem from "@mui/material/MenuItem";
 
 
 const ListProjets = () => {
     return (
         <div>
             <Header></Header>
+            <button><NavLink to={"/Youtube"}>
+                <MenuItem><h2 className="menuTitle">You tube </h2></MenuItem>
+            </NavLink></button>
+
             <h1>Projets</h1>
             <div className="container">
 

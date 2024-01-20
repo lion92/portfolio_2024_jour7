@@ -7,6 +7,7 @@ import IconButton from '@mui/material/IconButton';
 import Tooltip from '@mui/material/Tooltip';
 import {NavLink} from "react-router-dom";
 import './css/menu.css'
+
 export default function AccountMenu() {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -68,33 +69,32 @@ export default function AccountMenu() {
                 anchorOrigin={{horizontal: 'right', vertical: 'bottom'}}
             >
 
-                    <NavLink to={"/"}>
-                        <MenuItem> <h2 className="menuTitle">Bienvenue</h2> </MenuItem>
-                    </NavLink>
+                <NavLink to={"/"}>
+                    <MenuItem><h2 className="menuTitle">Bienvenue</h2></MenuItem>
+                </NavLink>
 
 
-                    <NavLink to={"/About"}>
-                        <MenuItem>  <h2 className="menuTitle">A Propos </h2></MenuItem>
-                    </NavLink>
+                <NavLink to={"/About"}>
+                    <MenuItem><h2 className="menuTitle">A Propos </h2></MenuItem>
+                </NavLink>
 
 
-                    <NavLink to={"/Projets"}>
-                        <MenuItem>  <h2 className="menuTitle">Projets </h2> </MenuItem>
-                    </NavLink>
-   <NavLink to={"/Youtube"}>
-                        <MenuItem>  <h2 className="menuTitle">You tube </h2> </MenuItem>
-                    </NavLink>
+                <NavLink to={"/Projets"}>
+                    <MenuItem><h2 className="menuTitle">Projets </h2></MenuItem>
+                </NavLink>
+                <NavLink to={"/Youtube"}>
+                    <MenuItem><h2 className="menuTitle">You tube </h2></MenuItem>
+                </NavLink>
 
 
+                <NavLink to={"/Parcours"}>
+                    <MenuItem><h2 className="menuTitle">Parcours </h2></MenuItem>
+                </NavLink>
 
-                    <NavLink to={"/Parcours"}>
-                        <MenuItem>   <h2 className="menuTitle">Parcours  </h2>  </MenuItem>
-                    </NavLink>
 
-
-                    <NavLink to={"/Contact"}>
-                        <MenuItem>   <h2 className="menuTitle">Contact</h2></MenuItem>
-                    </NavLink>
+                <NavLink to={"/Contact"}>
+                    <MenuItem><h2 className="menuTitle">Contact</h2></MenuItem>
+                </NavLink>
 
             </Menu>
         </React.Fragment>
