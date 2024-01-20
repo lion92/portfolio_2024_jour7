@@ -127,7 +127,7 @@ export default function Temps() {
                 </Timeline>
 
             </div>
-            <Footer></Footer>
+
         </div>
     );
 }
