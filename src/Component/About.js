@@ -13,7 +13,7 @@ import MenuItem from "@mui/material/MenuItem";
 const About = () => {
 
     return (
-        <div>
+        <div className="section">
             <Header></Header>
             <button> <NavLink to={"/Projets"}>
                 <MenuItem><h2 className="menuTitle">Projets </h2></MenuItem>
@@ -32,7 +32,7 @@ const About = () => {
 
                 </div>
                 <div className="section">
-                    <div><h2><FaJava style={{
+                    <div className="techno"><h2><FaJava style={{
 
                     }}/>Java </h2>
                         <LinearProgress className="aboutTechno" style={{ margin: '9px auto'}}

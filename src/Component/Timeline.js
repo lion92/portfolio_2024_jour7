@@ -21,7 +21,7 @@ export default function Temps() {
             </NavLink>
             </button>
             <h1>Parcours</h1>
-            <div className="container">
+            <div className="container2">
                 <Timeline position="alternate">
                     <TimelineItem>
                         <TimelineOppositeContent
