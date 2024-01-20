@@ -25,9 +25,10 @@ button {
     padding: 40px;
     box-shadow: 2px 4px 12px rgba(0, 0, 0, .08);
     transition: all .3s cubic-bezier(0, 0, .5, 1);
-    margin-bottom: 20px;
+
     justify-content: space-between;
     width: 300px;
+    margin: 10px;
 
 }
 
