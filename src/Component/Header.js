@@ -7,6 +7,7 @@ import IconButton from '@mui/material/IconButton';
 import Tooltip from '@mui/material/Tooltip';
 import {NavLink} from "react-router-dom";
 import './css/menu.css'
+import Footer from "./Footer";
 
 export default function AccountMenu() {
     const [anchorEl, setAnchorEl] = React.useState(null);
