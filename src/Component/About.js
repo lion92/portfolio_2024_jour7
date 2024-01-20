@@ -20,7 +20,7 @@ const About = () => {
             </NavLink></button>
 
             <div className="section" data-anchor="skills">
-                <h1 style={{color: "white"}}>A PROPOS DE MOI</h1>
+                <h1 style={{color: "white"}}>A PROPOS</h1>
                 <div className="content">
 
                     <p className="about">

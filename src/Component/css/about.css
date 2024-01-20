@@ -56,4 +56,5 @@ body{
 }
 h1,p,h2,h5,span{
     color: white;
+    z-index: 1
 }
