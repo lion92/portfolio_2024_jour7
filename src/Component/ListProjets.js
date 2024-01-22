@@ -73,7 +73,18 @@ const ListProjets = () => {
                     <div className="card__body">
                         <a target="_blank" rel="noreferrer" href="https://contact.krissclotilde.com/"><h3
                             className="card__title">Site de
-                            type cv</h3></a>
+                            type CV</h3></a>
+
+                    </div>
+
+
+                </div>
+                <div className="card" id="list5">
+                    <img src="https://projet.krissclotilde.com/asset/Lion%20Mascot%20Logo.png" alt="site de type cv"
+                         className="card__img"/>
+                    <div className="card__body">
+                        <a target="_blank" rel="noreferrer" href="https://projet.krissclotilde.com/"><h3
+                            className="card__title">Mon ancien site de type CV</h3></a>
 
                     </div>
 

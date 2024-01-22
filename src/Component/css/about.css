@@ -10,28 +10,18 @@ body{
     position: relative;
 }
 footer {
-
     position: fixed;
     bottom: 0;
-
     left: 0;
-
     right: 0;
-
-
     background: #111;
     color: white;
     height: 100px;
     font-size: medium;
-
-
     width: 100vw;
     text-align: start;
-
     opacity: 0.9;
     padding: 10px;
-
-
 }
 .section{
 position: relative;

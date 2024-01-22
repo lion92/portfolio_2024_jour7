@@ -26,6 +26,9 @@ export default function CarteVisite() {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
+                            Kriss CLOTILDE
+                        </Typography>
+                        <Typography gutterBottom variant="h5" component="div">
                             Developpeur
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
