@@ -10,8 +10,8 @@ const ListProjets = () => {
     return (
         <div>
             <Header></Header>
-            <button><NavLink to={"/Youtube"}>
-                <MenuItem><h2 className="menuTitle">You tube </h2></MenuItem>
+            <button><NavLink to={"/article"}>
+                <MenuItem><h2 className="menuTitle">Articles </h2></MenuItem>
             </NavLink></button>
 
             <h1>Projets</h1>

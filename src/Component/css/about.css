@@ -38,6 +38,7 @@ h2{
 }
 h1,h2,h3,h4,h5{
     margin: 0;
+
 }
 body{
     background-image: url("../image/fondecran.png");
@@ -50,8 +51,10 @@ h1,p,h2,h5,span{
     z-index: 1;
 }
 h2{
-    color: #d9658d;
+    color: #ceba6b;
 }
+p{text-align: center}
 .aboutTechno{
     width: 50vw;
 }
+

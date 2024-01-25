@@ -92,6 +92,10 @@ export default function AccountMenu() {
                     <MenuItem><h2 className="menuTitle">Parcours </h2></MenuItem>
                 </NavLink>
 
+                <NavLink to={"/article"}>
+                    <MenuItem><h2 className="menuTitle">Articles </h2></MenuItem>
+                </NavLink>
+
 
                 <NavLink to={"/Contact"}>
                     <MenuItem><h2 className="menuTitle">Contact</h2></MenuItem>

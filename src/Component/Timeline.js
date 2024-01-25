@@ -8,7 +8,6 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import Header from "./Header";
-import Footer from "./Footer";
 import {NavLink} from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
 
