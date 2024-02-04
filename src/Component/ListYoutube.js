@@ -28,11 +28,41 @@ const ListYoutube = () => {
                     </div>
                 </div>
 
-                <div className="card" id="list1">
+                <div className="card" id="list2">
                     <h3 style={{color: 'black'}}>Video sur mon tuto git intellij</h3>
                     <div className="card__body">
                         <iframe width="100%" height="200px"
                                 src="https://www.youtube.com/embed/yP5rXUxOno0?si=AtuMsuEkpNtLCap9"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen></iframe>
+                    </div>
+                </div>
+                <div className="card" id="list3">
+                    <h3 style={{color: 'black'}}>Video portfolio 2024</h3>
+                    <div className="card__body">
+                        <iframe width="100%" height="200px"
+                                src="https://www.youtube.com/embed/z-gmmfedpH4?si=8R2TW-O1rKzXSbkB"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen></iframe>
+                    </div>
+                </div>
+                <div className="card" id="list4">
+                    <h3 style={{color: 'black'}}>Video portfolio 2024 Jour 7</h3>
+                    <div className="card__body">
+                        <iframe width="100%" height="200px"
+                                src="https://www.youtube.com/embed/8eyR39lNhTg?si=HTMBUJ8ihru7Hkjj"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen></iframe>
+                    </div>
+                </div>
+                <div className="card" id="list5">
+                    <h3 style={{color: 'black'}}>Demo de mon application de budget</h3>
+                    <div className="card__body">
+                        <iframe width="100%" height="200px"
+                                src="https://www.youtube.com/embed/fUsnKCQSTSw?si=d6YnhL4JP6S1dYxE"
                                 title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowFullScreen></iframe>

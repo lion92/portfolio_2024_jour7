@@ -89,6 +89,16 @@ const ListProjets = () => {
                     </div>
 
                 </div>
+                <div className="card" id="list6">
+                    <img src="https://projet.krissclotilde.com/asset/Lion%20Mascot%20Logo.png" alt="kata FizzBuzz"
+                         className="card__img"/>
+                    <div className="card__body">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/lion92/projet_tdd_js_fizz_buzz"><h3
+                            className="card__title">kata FizzBuzz</h3></a>
+
+                    </div>
+
+                </div>
 
             </div>
             <Footer></Footer>
