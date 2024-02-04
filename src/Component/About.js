@@ -6,19 +6,18 @@ import {FaJava, FaReact} from "react-icons/fa";
 import {RiJavascriptFill} from "react-icons/ri";
 import {SiSpring} from "react-icons/si";
 import {FaAngular} from "react-icons/fa6";
-import Footer from "./Footer";
 import {NavLink} from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
 
 const About = () => {
 
     return (
-        <div className="section">
+        <div >
             <Header></Header>
             <button> <NavLink to={"/Projets"}>
-                <MenuItem><h2 className="menuTitle">Projets </h2></MenuItem>
+                <MenuItem><h2>Projets </h2></MenuItem>
             </NavLink></button>
-
+<div className="section">
             <div className="section" data-anchor="skills">
                 <h1 style={{color: "white"}}>A PROPOS</h1>
                 <div className="content">
@@ -70,7 +69,7 @@ const About = () => {
 
             </div>
 
-        </div>
+        </div></div>
     );
 };
 
