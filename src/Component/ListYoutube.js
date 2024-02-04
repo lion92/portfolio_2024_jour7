@@ -58,16 +58,6 @@ const ListYoutube = () => {
                                 allowFullScreen></iframe>
                     </div>
                 </div>
-                <div className="card" id="list5">
-                    <h3 style={{color: 'black'}}>Demo de mon application de budget</h3>
-                    <div className="card__body">
-                        <iframe width="100%" height="200px"
-                                src="https://www.youtube.com/embed/fUsnKCQSTSw?si=d6YnhL4JP6S1dYxE"
-                                title="YouTube video player" frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowFullScreen></iframe>
-                    </div>
-                </div>
 
             </div>
             <Footer></Footer>
