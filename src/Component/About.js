@@ -23,25 +23,27 @@ const About = () => {
                 <h1 style={{color: "white"}}>A PROPOS</h1>
                 <div className="content">
 
-                    <p className="about">
+                    <p style={{fontSize: "30px", color: "gold", textTransform: 'initial'}} className="about">
                         Je suis kriss CLOTILDE, développeur en reconversion. <br/>
                         Je suis disponible pour une mission en java ou javascript. <br/>
                         J'aime le craft et les bonnes pratiques de programmations. <br/>
-                        Je vise les étoiles pour au moins décrocher la lune.</p>
-
-
+                    </p>
+                    <br/>
+                    <p style={{fontSize: "30px", color: "gold", textTransform: 'initial'}} className="about">
+                        Mes passions sont les cartes magics, prier et méditer,<br/> les jeux de stratégies et découvrir
+                        de nouveaux resto. <br/>
+                    </p>
+                    <br/>
+                    <p style={{fontSize: "30px", color: "blue" +
+                            "", textTransform: 'initial'}}>Je vise les étoiles pour au moins décrocher la lune.</p>
                 </div>
                 <div className="section">
-                    <div className="techno"><h2><FaJava style={{
-
-                    }}/>Java </h2>
-                        <LinearProgress className="aboutTechno" style={{ margin: '9px auto'}}
+                    <div className="techno"><h2><FaJava style={{}}/>Java </h2>
+                        <LinearProgress className="aboutTechno" style={{margin: '9px auto'}}
                                         variant="determinate" value={90}/>
-                        <h2><SiSpring style={{
-
-                        }}/>Spring </h2>
+                        <h2><SiSpring style={{}}/>Spring </h2>
                         <LinearProgress className="aboutTechno"
-                            style={{ margin: '9px auto'}}
+                                        style={{ margin: '9px auto'}}
                             variant="determinate" value={60}/>
 
                         <h2><RiJavascriptFill style={{
