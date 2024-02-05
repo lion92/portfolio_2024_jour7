@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import {NavLink} from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
+import BulleComponent from "./bulleComponent";
 
 export default function CarteVisite() {
     return (

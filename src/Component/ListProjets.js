@@ -4,12 +4,14 @@ import './css/listProjets.css'
 import Footer from "./Footer";
 import {NavLink} from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
+import BulleComponent from "./bulleComponent";
 
 
 const ListProjets = () => {
     return (
         <div>
             <Header></Header>
+            <BulleComponent></BulleComponent>
             <button><NavLink to={"/article"}>
                 <MenuItem><h2 className="menuTitle">Articles </h2></MenuItem>
             </NavLink></button>

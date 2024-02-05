@@ -4,12 +4,14 @@ import './css/listProjets.css'
 import Footer from "./Footer";
 import MenuItem from "@mui/material/MenuItem";
 import {NavLink} from "react-router-dom";
+import BulleComponent from "./bulleComponent";
 
 
 const ListYoutube = () => {
     return (
         <div style={{position: 'relative'}}>
             <Header></Header>
+            <BulleComponent></BulleComponent>
             <button><NavLink to={"/Contact"}>
                 <MenuItem><h2 className="menuTitle">contact </h2></MenuItem>
             </NavLink></button>
