@@ -16,7 +16,7 @@ const ListYoutube = () => {
                 <MenuItem><h2 className="menuTitle">Parcours </h2></MenuItem>
             </NavLink></button>
 
-            <h1>Projets</h1>
+            <h1>You tube</h1>
             <div className="container">
 
                 <div className="card" id="list1">
