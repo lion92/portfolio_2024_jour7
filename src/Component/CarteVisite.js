@@ -8,7 +8,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import {NavLink} from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
-import BulleComponent from "./bulleComponent";
+
 
 export default function CarteVisite() {
     return (
@@ -22,7 +22,7 @@ export default function CarteVisite() {
                 <Card style={{textAlign: 'center', margin: 'auto', padding: "20px"}} sx={{maxWidth: 500}}>
                     <CardMedia
                         sx={{height: 370}}
-                        image="https://projet.krissclotilde.com/asset/avatar-gratuit.png"
+                        image='./image/avatar-gratuit.png'
                         title="Moi"
                     />
                     <CardContent>
