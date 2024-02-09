@@ -2,13 +2,12 @@ import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Footer from "./Footer";
 import Header from "./Header";
 import {NavLink} from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
-
+import photomoi from "./image/avatar-gratuit.png";
 
 export default function CarteVisite() {
     return (
@@ -20,11 +19,9 @@ export default function CarteVisite() {
             <h1>Carte de visite</h1>
             <div>
                 <Card style={{textAlign: 'center', margin: 'auto', padding: "20px"}} sx={{maxWidth: 500}}>
-                    <CardMedia
-                        sx={{height: 370}}
-                        image='./image/avatar-gratuit.png'
-                        title="Moi"
-                    />
+                    <div><img src={photomoi}
+                                                alt="photodemoi"
+                                                className="card__img"/></div>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             Kriss CLOTILDE
