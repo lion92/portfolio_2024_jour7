@@ -7,7 +7,7 @@ import IconButton from '@mui/material/IconButton';
 import Tooltip from '@mui/material/Tooltip';
 import {NavLink} from "react-router-dom";
 import './css/menu.css'
-import Footer from "./Footer";
+import Head from "./Head";
 
 export default function AccountMenu() {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -20,6 +20,7 @@ export default function AccountMenu() {
     };
     return (
         <React.Fragment>
+
             <Box sx={{display: 'flex', alignItems: 'center', textAlign: 'center'}}>
                 <Tooltip title="Account settings">
                     <IconButton
@@ -30,10 +31,12 @@ export default function AccountMenu() {
                         aria-haspopup="true"
                         aria-expanded={open ? 'true' : undefined}
                     >
-                        <Avatar style={{color:"black", backgroundColor:"yellow"}}sx={{width: 100, height: 100}}>Menu</Avatar>
+                        <Avatar style={{color: "black", backgroundColor: "yellow"}}
+                                sx={{width: 100, height: 100}}>Menu</Avatar>
                     </IconButton>
                 </Tooltip>
             </Box>
+            <Head></Head>
             <Menu
                 anchorEl={anchorEl}
                 id="account-menu"
