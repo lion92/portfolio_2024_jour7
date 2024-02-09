@@ -101,6 +101,16 @@ const ListProjets = () => {
                     </div>
 
                 </div>
+                <div className="card" id="list7">
+                    <img src="https://projet.krissclotilde.com/asset/Lion%20Mascot%20Logo.png" alt="blog d'articlesde kriss"
+                         className="card__img"/>
+                    <div className="card__body">
+                        <a target="_blank" rel="noreferrer" href="https://blog2024.krissclotilde.com/"><h3
+                            className="card__title">Création de mon blog d'articles</h3></a>
+
+                    </div>
+
+                </div>
 
             </div>
             <Footer></Footer>

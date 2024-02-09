@@ -60,6 +60,36 @@ const ListYoutube = () => {
                                 allowFullScreen></iframe>
                     </div>
                 </div>
+                <div className="card" id="list5">
+                    <h3 style={{color: 'black'}}>Création de mon blog d'articles Front</h3>
+                    <div className="card__body">
+                        <iframe width="100%" height="200px"
+                                src="https://www.youtube.com/embed/Hp3Z0Ayj5wA?si=0LTvK1WTNpTg4gO9"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen></iframe>
+                    </div>
+                </div>
+                <div className="card" id="list6">
+                    <h3 style={{color: 'black'}}>Création de mon blog d'articles Back</h3>
+                    <div className="card__body">
+                        <iframe width="100%" height="200px"
+                                src="https://www.youtube.com/embed/p3bjQL6HLto?si=-r2RXxKmpXhqwI3U"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen></iframe>
+                    </div>
+                </div>
+                <div className="card" id="list6">
+                    <h3 style={{color: 'black'}}>Tuto sur nginx</h3>
+                    <div className="card__body">
+                        <iframe width="100%" height="200px"
+                                src="https://www.youtube.com/embed/N1N0wb4R3tE?si=5TMFyB711MkdeYTg"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen></iframe>
+                    </div>
+                </div>
 
             </div>
             <Footer></Footer>
