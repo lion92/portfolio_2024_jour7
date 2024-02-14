@@ -33,10 +33,7 @@ button {
 }
 
 
-.card:hover {
-    background-color: #72aee8;
-    transform: translateY(-10%);
-}
+
 
 .card__img {
     width: 100%;

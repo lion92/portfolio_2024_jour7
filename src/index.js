@@ -17,7 +17,7 @@ const Root = () => (
             <Route exact path="/About" component={About}/>
             <Route exact path="/Projets" component={ListProjets}/>
             <Route exact path="/Youtube" component={ListYoutube}/>
-            <Route exact path="/Parcours" component={Timeline}/>
+            <Route exact path="/$" component={Timeline}/>
             <Route exact path="/Contact" component={CarteVisite}/>
             <Route exact path="/article" component={Articles}/>
             <Route exact path="*" component={Helloword}/>
